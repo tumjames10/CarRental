@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program\Program.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalWeb", "CarRentalWeb\CarRentalWeb.csproj", "{E730FD3F-AFD5-4CED-9CCF-834408BAFA47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalWepApi", "CarRentalWepApi\CarRentalWepApi.csproj", "{3BEEF8D4-853D-408A-97B9-5BA47D7D3FB6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -16,7 +16,7 @@ namespace CarRentalContext
             public CarRentalCtx()
 
             : base(@" Data Source = (localdb)\v11.0;
-                        AttachDbFilename=CarRental.mdf;
+                        AttachDbFilename=C:\\Users\\Billy\\Documents\\CarRental.mdf;
                         Initial Catalog = CarRentalDB;
                         Integrated Security=True;
                         Connect Timeout=30")

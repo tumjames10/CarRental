@@ -1,8 +1,5 @@
 H:\Projects\CarRental\CarRentalWeb\bin\CarRentalWeb.dll
 H:\Projects\CarRental\CarRentalWeb\bin\CarRentalWeb.pdb
-H:\Projects\CarRental\CarRentalWeb\obj\Debug\CarRentalWeb.csprojResolveAssemblyReference.cache
-H:\Projects\CarRental\CarRentalWeb\obj\Debug\CarRentalWeb.dll
-H:\Projects\CarRental\CarRentalWeb\obj\Debug\CarRentalWeb.pdb
 H:\Projects\CarRental\CarRentalWeb\bin\Billy.Framework.Contract.dll
 H:\Projects\CarRental\CarRentalWeb\bin\Billy.Framework.dll
 H:\Projects\CarRental\CarRentalWeb\bin\Billy.Framework.Model.dll
@@ -12,3 +9,6 @@ H:\Projects\CarRental\CarRentalWeb\bin\CarRentalContext.dll
 H:\Projects\CarRental\CarRentalWeb\bin\EntityFramework.dll
 H:\Projects\CarRental\CarRentalWeb\bin\CarRentalContext.pdb
 H:\Projects\CarRental\CarRentalWeb\bin\CarRental.EFDBModel.pdb
+H:\Projects\CarRental\CarRentalWeb\obj\Debug\CarRentalWeb.csprojResolveAssemblyReference.cache
+H:\Projects\CarRental\CarRentalWeb\obj\Debug\CarRentalWeb.dll
+H:\Projects\CarRental\CarRentalWeb\obj\Debug\CarRentalWeb.pdb

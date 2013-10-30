@@ -1,4 +1,3 @@
-H:\Projects\CarRental\CarRental\obj\Debug\CarRental.csprojResolveAssemblyReference.cache
 H:\Projects\CarRental\CarRental\bin\Debug\CarRental.EFDBModel.dll
 H:\Projects\CarRental\CarRental\bin\Debug\CarRental.EFDBModel.pdb
 H:\Projects\CarRental\CarRental\bin\Debug\Billy.Framework.Contract.dll

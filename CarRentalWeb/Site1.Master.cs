@@ -42,6 +42,8 @@ namespace CarRentalWeb
             if (_sender.SelectedValue == this.CarRentalMenu.Items[0].ChildItems[0].Text)
             {
                 this.rentPanel.Visible = true;
+                this.gvBorrowers.Visible = false;
+                this.panelAddReservation.Visible = false;
             }
             else
             {
