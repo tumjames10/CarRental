@@ -15,11 +15,12 @@ namespace CarRentalContext
         {
             public CarRentalCtx()
 
-            : base(@" Data Source = (localdb)\v11.0;
-                        AttachDbFilename=C:\\Users\\Billy\\Documents\\CarRental.mdf;
-                        Initial Catalog = CarRentalDB;
-                        Integrated Security=True;
-                        Connect Timeout=30")
+                :base(BillyServerBase.ConnectionString.ElementAt(0))
+//            : base(@" Data Source = (localdb)\v11.0;
+//                        AttachDbFilename=C:\\Users\\Billy\\Documents\\CarRental.mdf;
+//                        Initial Catalog = CarRentalDB;
+//                        Integrated Security=True;
+//                        Connect Timeout=30")
             {
                 Database.SetInitializer<CarRentalCtx>(new CarRentalSetInitializer());
             }
