@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CarRentalWeb.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="master.css" />
+    <style type="text/css">
+        #form1 {
+            height: 991px;
+        }
+    </style>
+</head>
+<body style="height: 396px; width: 572px" id="whole">
+    <form id="form1" runat="server">
+        <h1> Car Rental App</h1>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <asp:Menu ID="CarRentalMenu" runat="server" BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57" StaticSubMenuIndent="10px" OnMenuItemClick="Menu1_MenuItemClick">
+            <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#F7F6F3" />
+            <DynamicSelectedStyle BackColor="#5D7B9D" />
+            <Items>
+                <asp:MenuItem Text="Reservations" Value="Reservations">
+                    <asp:MenuItem Text="Add Reservation" Value="Add Reservation"></asp:MenuItem>
+                    <asp:MenuItem Text="Update Reservation" Value="Update Reservation"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="User" Value="User"></asp:MenuItem>
+            </Items>
+            <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#5D7B9D" />
+            <StaticItemTemplate>
+<%# Eval("Text") %>
+            </StaticItemTemplate>
+        </asp:Menu>
+      
+          <asp:Label ID="labelSaved" runat="server" Text="Reservation Added" Visible="False">
+          </asp:Label><br />
+        <asp:Label ID="lblError" runat="server" Text="Some Fields Are Not Valid" Visible="False"></asp:Label>
+      
+          <div aria-checked="mixed" style="font-size: smaller" id ="panelReservation">
+
+            <asp:Panel ID="panelAddReservation" runat="server" BackColor="#6699FF" Visible="False">
+                Add Borrower<br />
+            <asp:Label runat="server" Text="Full Name" BorderStyle="None"></asp:Label><br />
+            <asp:TextBox ID="tbFullName" runat="server" Width="518px" Wrap="False"></asp:TextBox><br />
+
+            <asp:Label ID="Label1" runat="server" Text="Permanent Address" BorderStyle="None"></asp:Label><br />
+            <asp:TextBox ID="tbPermanentAddress" runat="server" Width="518px"></asp:TextBox><br />
+
+            <asp:Label ID="Label2" runat="server" Text="Hotel Address" BorderStyle="None"></asp:Label><br />
+            <asp:TextBox ID="tbHAddress" runat="server" Width="518px"></asp:TextBox><br />
+
+            <asp:Label ID="Label3" runat="server" Text="Mobile Number" BorderStyle="None"></asp:Label><br />
+            <asp:TextBox ID="tbMobileNumber" runat="server" Width="518px"></asp:TextBox><br />
+            
+            <asp:Label ID="Label4" runat="server" Text="Landline Number" BorderStyle="None"></asp:Label><br />
+            <asp:TextBox ID="tbLandlineNumber" runat="server" Width="518px"></asp:TextBox><br />
+
+             <asp:Label ID="Label5" runat="server" Text="Email Address" BorderStyle="None"></asp:Label><br />
+            <asp:TextBox ID="tbEmailAddress" runat="server" Width="518px" Height="16px"></asp:TextBox><br /><br />
+
+            <asp:Button ID="AddReserve" runat="server" Text="Add Borrower" OnClick="AddReserve_Click"/>
+     
+            </asp:Panel>
+        </div>
+        <asp:Panel ID="panelBorrowers" runat="server" BackColor="White" Height="175px" Visible="False">
+            <asp:GridView ID="gvBorrowers" runat="server">
+            </asp:GridView>
+        </asp:Panel>
+        <asp:Panel ID="rentPanel" runat="server" Height="398px" style="font-size: small" Visible="False">
+            <asp:Label ID="Label9" runat="server" BorderStyle="None" Text="Select Borrower"></asp:Label>
+            <asp:ListBox ID="lbBorrowers" runat="server" Width="537px"></asp:ListBox><br />
+            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Borrower Does not Exist</asp:LinkButton>
+            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            <asp:Label ID="Label10" runat="server" BorderStyle="None" Text="Time"></asp:Label>
+            <asp:TextBox ID="tbEmailAddress3" runat="server" Height="16px" Width="208px"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label7" runat="server" BorderStyle="None" Text="Email Address"></asp:Label>
+            <asp:TextBox ID="tbEmailAddress1" runat="server" Height="16px" Width="527px"></asp:TextBox>
+            <asp:Label ID="Label8" runat="server" BorderStyle="None" Text="Email Address"></asp:Label>
+            <asp:TextBox ID="tbEmailAddress2" runat="server" Height="16px" Width="527px"></asp:TextBox>
+        </asp:Panel>
+    </form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+H:\Projects\CarRental\CarRentalWepApi\obj\Debug\CarRentalWepApi.csprojResolveAssemblyReference.cache

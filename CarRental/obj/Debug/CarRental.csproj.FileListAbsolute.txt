@@ -1,0 +1,10 @@
+H:\Projects\CarRental\CarRental\obj\Debug\CarRental.csprojResolveAssemblyReference.cache
+H:\Projects\CarRental\CarRental\bin\Debug\CarRental.EFDBModel.dll
+H:\Projects\CarRental\CarRental\bin\Debug\CarRental.EFDBModel.pdb
+H:\Projects\CarRental\CarRental\bin\Debug\Billy.Framework.Contract.dll
+H:\Projects\CarRental\CarRental\bin\Debug\Billy.Framework.dll
+H:\Projects\CarRental\CarRental\bin\Debug\Billy.Framework.Model.dll
+H:\Projects\CarRental\CarRental\bin\Debug\Billy.Framework.Server.dll
+H:\Projects\CarRental\CarRental\bin\Debug\EntityFramework.dll
+H:\Projects\CarRental\CarRental\obj\Debug\CarRental.EFDBModel.dll
+H:\Projects\CarRental\CarRental\obj\Debug\CarRental.EFDBModel.pdb

@@ -1,0 +1,65 @@
+whole {
+    object-position: center;
+    
+}
+h1{
+    font-size: large;
+    font-family:  'Segoe UI';
+    color: #0094ff
+}
+label{
+    font-size: large;
+    font-family:  'Segoe UI';
+    color: #fff;
+    
+}
+body {
+    font-family:'Segoe UI';
+}
+asp.Panel {
+   height: 20%;
+   width: 20%;
+   position: absolute;
+   left: 15px;
+}
+asp.Label {
+    
+    position:relative;
+    left:5px;
+}
+#tbFullName
+{
+    position:relative;
+     left:15px;
+}
+#tbPermanentAddress
+{
+    position:relative;
+     left:15px;
+}
+#tbHAddress
+{
+    position:relative;
+     left:15px;
+}
+#tbMobileNumber
+{
+    position:relative;
+     left:15px;
+}
+#tbLandlineNumber
+{
+    position:relative;
+    left:15px;
+}
+#tbEmailAddress
+{
+    position:relative;
+    left:15px;
+}
+#AddReserve{
+    position:absolute;
+    left:450px;
+    font-family: 'Segoe UI';
+    
+}
